@@ -1,0 +1,76 @@
+body
+{
+    line-height: 30px;
+    text-align: center;
+    cursor:context-menu;
+}
+h1
+{
+    color:orangered;
+    font-size: 60px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 50px;
+}
+.burg
+{
+    float: left;
+    width: 250px;
+    height: 500px;
+    margin-right: 10px;
+    border: 1px solid white;
+    /* margin: 10px; */
+    padding: 10px;
+    padding-right: 50px;
+    transition:all 0.2s;
+    background: linear-gradient(to bottom, #edecec 50%, #ffffff 50%) bottom;
+      background-size: 100% 200%;
+    }
+  
+.burg:hover
+{
+ /* background-color: aliceblue; */
+ background: linear-gradient(to bottom, aliceblue 50%,  aliceblue 50%) top;
+ border: 3px solid rgb(86, 78, 76);
+}
+
+.name
+{
+    font-size: 30px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: orange;
+}
+.des
+{
+    font-size: 23px;
+    font-family:'Arial Narrow', Arial, sans-serif;
+    line-break: auto;
+}
+.price
+{
+    font-size: 30px;
+    color: rgb(241, 80, 21);
+    line-height: 70px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.order
+{
+    font-size:30px;
+    font-family:Georgia, Times, 'Times New Roman', serif;
+    /* color:white; */
+    border: 1px solid red;
+    width: 160px;
+    padding: 10px;
+    background-color: orangered;
+    color: white;
+    text-align: center;
+    margin-left: 50px;
+    visibility: visible;
+       transition: all 0.4s;
+
+}
+.order:hover
+{
+    background-color: rgb(243, 38, 10);
+
+
+}
